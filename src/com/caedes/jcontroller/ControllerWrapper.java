@@ -31,8 +31,8 @@ public class ControllerWrapper {
         generators.add(new Button(components[6], InputEvent.CIRCLE));
         generators.add(new Button(components[7], InputEvent.SQUARE));
         generators.add(new Button(components[8], InputEvent.TRIANGLE));
-        generators.add(new Button(components[9], InputEvent.R1));
-        generators.add(new Button(components[10], InputEvent.L1));
+        generators.add(new Button(components[9], InputEvent.L1));
+        generators.add(new Button(components[10], InputEvent.R1));
         generators.add(new Button(components[11], InputEvent.SHARE));
         generators.add(new Button(components[12], InputEvent.OPTIONS));
         generators.add(new Button(components[13], InputEvent.L3));
