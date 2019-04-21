@@ -3,11 +3,10 @@ package com.caedes.jcontroller;
 import net.java.games.input.Component;
 
 /**
- * L    C   OUT
- * 0    0   no output
- * 1    0   released
- * 0    1   pressed
- * 1    1   pressed
+ * @author Musa Kapan aka Cres | Caedes
+ *
+ * A basic implementation of a button. I've opted not to implement the 'buttonTyped' event feature
+ * because I don't think it's needed anyways.
  */
 public class Button extends ComponentWrapper implements InputEventGenerator {
 

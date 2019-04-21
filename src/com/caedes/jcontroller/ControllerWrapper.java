@@ -5,6 +5,15 @@ import net.java.games.input.Controller;
 
 import java.util.ArrayList;
 
+/**
+ * @author Musa Kapan aka Cres | Caedes
+ *
+ * Container class for jinput's Controller class. Holds the components that make up this controller in the form
+ * of input generators. An input listener can be attached to this class through which the events triggered by the
+ * components will be sent.
+ *
+ * TODO: dynamic detection of components, support for XBOX 360 controllers, etc
+ */
 public class ControllerWrapper {
 
     private Controller controller;

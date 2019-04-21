@@ -1,5 +1,12 @@
 package com.caedes.jcontroller;
 
+/**
+ * @author Musa Kapan aka Cres | Caedes
+ *
+ * All the input events that can be triggered by a controller.
+ *
+ * TODO: names need to be abstracted if we want to allow for different controller types.
+ */
 public enum InputEvent {
 
     CROSS,

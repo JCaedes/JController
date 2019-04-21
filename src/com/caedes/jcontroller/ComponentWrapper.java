@@ -2,6 +2,15 @@ package com.caedes.jcontroller;
 
 import net.java.games.input.Component;
 
+/**
+ * @author Musa Kapan aka Cres | Caedes
+ *
+ * Container class for jinput's component class. Also holds the last signal and the current signal sent by the
+ * hardware component to allow us to make out which event should be sent through implementations of this class.
+ *
+ * The deadzone attribute is not used for buttons or hat switches but is useful for sliders. This can be used to
+ * counteract sensitivity of analogs and triggers.
+ */
 public class ComponentWrapper {
 
     private Component component;

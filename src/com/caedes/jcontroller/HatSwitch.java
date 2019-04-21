@@ -4,6 +4,8 @@ import net.java.games.input.Component;
 
 
 /**
+ * @author Musa Kapan aka Cres | Caedes
+ *
  * A hat switch represents the directional buttons on a controller.
  *
  * A hat switch will trigger the buttonPressed() event for as long as any direction except for neutral
@@ -16,7 +18,7 @@ import net.java.games.input.Component;
  * buttonReleased(NEUTRAL) at the same time. If the controller were to go from forward to up/forward
  * then it will trigger buttonPressed(UP_FORWARD) and buttonReleased(FORWARD) at once.
  *
- * This way the user can configure which input style fits implementation best.
+ * This way the user can pick which input style fits their implementation best.
  */
 public class HatSwitch extends ComponentWrapper implements InputEventGenerator {
 

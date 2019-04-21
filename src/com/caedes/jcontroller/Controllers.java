@@ -3,6 +3,13 @@ package com.caedes.jcontroller;
 import net.java.games.input.Controller;
 import net.java.games.input.ControllerEnvironment;
 
+/**
+ * @author Musa Kapan aka Cres | Caedes
+ *
+ * Static access class to the API and its service.
+ *
+ * TODO: hotswapping controllers
+ */
 public class Controllers implements Runnable {
 
     private static Controllers instance;
