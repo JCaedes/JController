@@ -1,6 +1,6 @@
 # JController
 
-Author: Musa Kapan AKA Cres | Caedes
+Author: Musa Kapan
 
 Credits: Endolf for jinput which this API is based upon.
 
